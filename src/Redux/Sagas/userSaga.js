@@ -1,8 +1,7 @@
 import {call, put, takeEvery} from 'redux-saga/effects'
 // import axios from 'axios';
 
-const apiUrl='https://jsonplaceholder.typicode.com/users';
-// const apiUrl='https://jsonplaceholder.typicode.com/todos';
+const apiUrl='https://jsonplaceholder.typicode.com/comments';
 
 async function getApi(){
     return fetch(apiUrl,{
